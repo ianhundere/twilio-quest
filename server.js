@@ -20,8 +20,8 @@ app.post("/status", (req, res) => {
   res.end(twiml.toString());
 });
 
-const accountSid = "ACffc9090071e4365f235068bb1c060c49";
-const authToken = "da1a55d55067112e975fc45a100e2cc0";
+const accountSid = "";
+const authToken = "";
 const client = require("twilio")(accountSid, authToken);
 
 client.calls
